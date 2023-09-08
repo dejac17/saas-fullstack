@@ -68,7 +68,7 @@ const SAAS: React.FC = () => {
       <div className="max-w-md m-auto p-2">
         <div className="bg-slate-800 p-6 rounded-md text-white">
           <div className="text-center my-6">
-            <Image src={logo} width={42} height={42} />
+            <Image src={logo} width={42} height={42} alt="Logo " />
             <h1 className={gradientTextStyle + " text-3xl font-light"}>SAAS</h1>
             <div className={gradientTextStyle}>Your AI branding assistant</div>
           </div>
