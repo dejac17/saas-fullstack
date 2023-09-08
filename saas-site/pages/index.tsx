@@ -1,9 +1,10 @@
+import SAAS from "@/components/saas";
 import type { NextPage } from "next";
 import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>AI Generated Marketing</title>
         <meta
@@ -13,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Component here */}
+      <SAAS />
     </div>
   );
 };

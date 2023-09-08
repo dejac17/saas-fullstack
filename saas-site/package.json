@@ -7,5 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.4.19"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.9",
+    "typescript": "5.2.2"
   }
 }
